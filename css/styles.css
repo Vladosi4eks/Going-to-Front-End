@@ -37,17 +37,20 @@ body {
 
 /* Навигация  */
 .site-nav .link {
+    color: var(--black-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.02em;
-    color: var(--black-color);
 }
 .site-nav .link:hover, .site-nav .link:focus {
     color: var(--blue-color);
 }
 
-.link.activing:hover, .link.activing:focus {
+.site-nav .active {
+    color: var(--blue-color);
+}
+.site-nav .active:hover, .site-nav .active:focus {
     color: var(--black-color);
 }
 
