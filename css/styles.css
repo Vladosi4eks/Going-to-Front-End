@@ -43,8 +43,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--black-color);
 }
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--blue-color);
+}
 
-.site-nav .activing:hover, .site-nav .activing:focus {
+.link.activing:hover, .link.activing:focus {
     color: var(--black-color);
 }
 
