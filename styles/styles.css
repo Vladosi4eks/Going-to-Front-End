@@ -1,13 +1,14 @@
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
+}
 :root {
     --blue-color: #2196F3;
     --text-color: #757575;
     --black-color: #212121;
     --whtie-color: #FFFFFF;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 0.03em;
 }
 .list {
     list-style: none;
