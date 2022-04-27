@@ -47,9 +47,12 @@ body {
     color: var(--blue-color);
 }
 
-.site-nav .active {
+.site-nav .link:active {
     color: var(--blue-color);
 }
+/* .site-nav .active {
+    color: var(--blue-color);
+} */
 .site-nav .active:hover, .site-nav .active:focus {
     color: var(--black-color);
 }
